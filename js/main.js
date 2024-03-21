@@ -82,7 +82,7 @@ Version:	1.1
 			loop:true,
 			autoplay:true,
 			smartSpeed: 500,
-			autoplayTimeout:3500,
+			autoplayTimeout:12000,
 			singleItem: true,
 			autoplayHoverPause:true,
 			items:1,
@@ -188,21 +188,6 @@ Version:	1.1
 			}
 		});
 		
-		/*====================================
-			Single Portfolio Slider JS
-		======================================*/ 
-		$('.pf-details-slider').owlCarousel({
-			items:1,
-			autoplay:false,
-			autoplayTimeout:5000,
-			smartSpeed: 400,
-			autoplayHoverPause:true,
-			loop:true,
-			merge:true,
-			nav:true,
-			dots:false,
-			navText: ['<i class="icofont-rounded-left"></i>', '<i class="icofont-rounded-right"></i>'],
-		});
 		
 		/*===================
 			Accordion JS
@@ -256,12 +241,6 @@ Version:	1.1
 			$('.sidebar-menu').removeClass('active');
 		});
 		
-		/*=====================
-			Video Popup JS
-		=======================*/ 
-		$('.video-popup').magnificPopup({
-			type: 'video',	
-		});
 		
 		/*================
 			Wow JS
@@ -298,25 +277,6 @@ Version:	1.1
 		$.stellar({
 		  horizontalOffset: 0,
 		  verticalOffset: 0
-		});
-
-		/*====================
-			Google Maps JS
-		======================*/
-		var map = new GMaps({
-				el: '#map',
-				lat: 23.011245,
-				lng: 90.884780,
-				scrollwheel: false,
-			});
-			map.addMarker({
-				lat: 23.011245,
-				lng: 90.884780,
-				title: 'Marker with InfoWindow',
-				infoWindow: {
-				content: '<p>welcome to Medipro</p>'
-			}
-		
 		});
 	});
 	
