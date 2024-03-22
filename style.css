@@ -544,10 +544,11 @@ body{
 
 .single-slider {
     position: relative;
-    overflow: hidden; /* Asegura que el contenido no se escape */
-    animation: slideAnimation 9s linear infinite; /* Define la animación */
 }
 
+.slider {
+    overflow-x: hidden;
+}
 
 .background-image {
     position: absolute;
@@ -848,6 +849,8 @@ body{
 	max-height: 100%;
 }
 
+
+
 /*===============================
 	End Galería de Clientes
 =================================*/
@@ -924,7 +927,7 @@ body{
 ===========================*/
 
 /*========================
-	Start Clients CSS
+	Start slider de clientes CSS
 ==========================*/
 .clients {
     background-image: url('img/client-bg.jpg');
@@ -935,6 +938,7 @@ body{
     display: flex; /* Convertir el contenedor en un flex container */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
+	overflow-x: hidden;
 }
 
 .clients .single-clients {
@@ -951,8 +955,9 @@ body{
 	margin: 0 5%; /* Agrega 10px de margen a la izquierda y a la derecha */
 }
 
+
 /*========================
-	End Clients CSS
+	End slider de clientes CSS
 ==========================*/
 
 /*=========================
