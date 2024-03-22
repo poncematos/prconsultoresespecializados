@@ -925,9 +925,8 @@ body{
 /*=========================
 	Fin contactanos CSS
 ===========================*/
-
 /*========================
-	Start slider de clientes CSS
+    Start slider de clientes CSS
 ==========================*/
 .clients {
     background-image: url('img/client-bg.jpg');
@@ -938,25 +937,25 @@ body{
     display: flex; /* Convertir el contenedor en un flex container */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .clients .single-clients {
     display: flex; /* Convertir el contenedor en un flex container */
     align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
 }
 
 .clients .single-clients img {
-    width: 90%;
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+    height: auto; /* Mantener la proporción de aspecto */
     cursor: pointer;
-    /* text-align: center; Ya no es necesario */
-    float: none;
 }
 
-
 /*========================
-	End slider de clientes CSS
+    End slider de clientes CSS
 ==========================*/
+
 
 /*=========================
     Start Footer CSS
@@ -964,10 +963,14 @@ body{
 .footer {
     position: relative;
     background: #1A76D1; /* Añadido el fondo de color */
-    color: #fff; /* Añadido el color de texto */
     text-align: center; /* Centrar el contenido */
     padding: 5px; /* Ajustar el espaciado */
 }
+
+.footer p {
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
 /*=========================
     End Footer CSS
 ===========================*/
