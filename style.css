@@ -933,7 +933,7 @@ body{
     background-image: url('img/client-bg.jpg');
     background-size: cover;
     background-position: center;
-    padding: 3px 0px; /* Se ha reducido el padding a 10px arriba y abajo */
+    padding: 10px 10px; /* Se ha reducido el padding a 10px arriba y abajo */
     position: relative;
     display: flex; /* Convertir el contenedor en un flex container */
     justify-content: center; /* Centrar horizontalmente */
@@ -951,8 +951,6 @@ body{
     cursor: pointer;
     /* text-align: center; Ya no es necesario */
     float: none;
-    padding: 10px;
-	margin: 0 5%; /* Agrega 10px de margen a la izquierda y a la derecha */
 }
 
 
@@ -970,11 +968,7 @@ body{
     text-align: center; /* Centrar el contenido */
     padding: 5px; /* Ajustar el espaciado */
 }
-
-.footer .copyright {
-    padding: 20px 0; /* Ajustar el espaciado */
-	color: #fff; /* Añadido el color de texto */
-}
 /*=========================
     End Footer CSS
 ===========================*/
+
