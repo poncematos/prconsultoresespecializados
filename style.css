@@ -7,71 +7,6 @@ body{
 	font-size:14px;
 	color:#888;
 }
-.pro-features {
-	position: fixed;
-	right: -300px;
-	width: 300px;
-	height: auto;
-	line-height: 46px;
-	font-size: 14px;
-	background: #fff;
-	text-align: left;
-	color: #333;
-	top: 50%;
-	transform:translateY(-50%);
-	box-shadow: -4px 0px 5px #00000036;
-	color: #fff;
-	z-index: 9999;
-	padding:20px 30px 30px 30px;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-}
-.pro-features.active{
-	right:0;
-}
-.pro-features li.big-title {
-	font-weight: 600;
-	color: #1A76D1;
-	font-size: 15px;
-}
-.pro-features li.title {
-	font-weight: 600;
-	color: #1A76D1;
-	font-size: 15px;
-}
-
-.pro-features .button .btn {
-	width: 100%;
-	text-align: center;
-	margin-top: 8px;
-	display: inline-block;
-	font-size: 13px;
-	width: 100%;
-	text-transform: capitalize;
-}
-.pro-features li {
-	color: #333;
-	margin: 0;
-	padding: 0;
-	line-height: 22px;
-	margin-bottom: 10px;
-}
-.get-pro {
-	position: absolute;
-	left: -80px;
-	width:80px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 14px;
-	border-radius: 5px 0 0 5px;
-	background: #1A76D1;
-	text-align: center;
-	color: #fff;
-	top: 0;
-	cursor: pointer;
-	box-shadow: -4px 0px 5px #00000036;
-}
 
 #scrollUp {
 	bottom: 15px;
@@ -588,7 +523,7 @@ body{
 
 .slider .single-slider li {
     position: relative; /* Asegura que el elemento padre sea relativo */
-    color: #040744;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 500;
     margin: 0;
@@ -688,7 +623,7 @@ body{
 =============================*/
 
 /*=============================
-	Start Schedule CSS
+	Inicio cuadraditos de datos CSS
 ===============================*/
 .schedule {
 	background: #fff;
@@ -698,7 +633,7 @@ body{
 }
 .schedule .schedule-inner {
 	position: relative;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 	z-index:9;
 }
 .schedule .single-schedule {
@@ -706,7 +641,7 @@ body{
 	text-align: left;
 	z-index:3;
 	border-radius:5px;
-	background:#1A76D1;
+	background:#0a4a8a;
 	 -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -729,7 +664,7 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background:#0a4a8a;
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
@@ -823,138 +758,8 @@ body{
 	float: right;
 }
 /*=============================
-	End Schedule CSS
+	Fin de cuadraditos de datos CSS
 ===============================*/
-
-/*=============================
-	Start Feautes CSS
-===============================*/
-.Feautes{
-	padding-top:0;
-}
-.Feautes.index2{
-	padding-top:100px;
-}
-.Feautes.testimonial-page{
-	padding-top:100px;
-}
-.Feautes .single-features{
-	text-align:center;
-	position:relative;
-	padding:10px 20px;
-}
-.Feautes .single-features::before {
-	position: absolute;
-	content: "";
-	right: -72px;
-	top: 60px;
-	width: 118px;
-	border-bottom: 3px dotted #1a76d1;
-}
-.Feautes .single-features.last::before{
-	display:none;
-}
-.Feautes .single-features .signle-icon{
-	position:relative;
-}
-.Feautes .single-features .signle-icon i{
-	font-size:50px;
-	color:#1a76d1;
-	position:absolute;
-	left:50%;
-	margin-left:-50px;
-	top:0;
-	height:100px;
-	width:100px;
-	line-height:100px;
-	text-align:center;
-	border:1px solid #dddddd;
-	border-radius:100%;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-}
-.Feautes .single-features:hover .signle-icon i{
-	background:#1A76D1;
-	color:#fff;
-	border-color:transparent;
-}
-.Feautes .single-features h3{
-	padding-top: 128px;
-	color:#2C2D3F;
-	font-weight:600;
-	font-size:21px;
-}
-.Feautes .single-features p {
-	margin-top: 20px;
-}
-/*=============================
-	End Feautes CSS
-===============================*/
-
-/*=======================
-	Start Fun Facts CSS
-=========================*/
-.fun-facts{
-	position:relative;
-}
-.fun-facts.section{
-	padding:120px 0;
-}
-.fun-facts{
-	background:url('img/fun-bg.jpg');
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-.fun-facts .single-fun i {
-	position: absolute;
-	left: 0;
-	font-size: 62px;
-	color: #fff;
-	height: 70px;
-	width: 70px;
-	line-height: 67px;
-	font-size: 28px;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	border: 2px solid #fff;
-	border-radius: 0px;
-	top: 50%;
-	margin-top: -35px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	border-radius: 50%;
-}
-.fun-facts .single-fun:hover i{
-	color:#1A76D1;
-	background:#fff;
-	border-color:transparent;
-}
-.fun-facts .single-fun .content {
-	padding-left: 80px;
-}
-.fun-facts .single-fun span {
-	color: #fff;
-	font-weight: 600;
-	font-size: 30px;
-	position: relative;
-	display: block;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s eas;
-	display: block;
-	margin-bottom: 7px;
-}
-.fun-facts .single-fun p{
-	color:#fff;
-	font-size:15px;
-}
-/*===================
-	End Fun Facts
-=====================*/
 
 /*===================
 	Inicio Nosotros CSS
@@ -1173,163 +978,24 @@ body{
 	Fin Servicios CSS
 =================================*/
 
-/*=========================
-   Start Contact Us CSS
-===========================*/
-.contact-us .inner{
-	box-shadow: 0px 0px 10px #00000024;
-	border-radius: 5px;
-	overflow:hidden;
-}
-.contact-us .contact-us-left{
-    width: 100%;
-    height: 100%;
-}
-.contact-us .contact-us-form{
-	padding:50px 40px;
-}
-.contact-us .contact-us-form h2 {
-	position: relative;
-	font-size: 32px;
-	color: #333;
-	font-weight: 600;
-	line-height: 27px;
-	text-transform: capitalize;
-	margin-bottom: 12px;
-	padding-bottom: 20px;
-	text-align: left;
-}
-.contact-us .contact-us-form h2:before{
-	position:absolute;
-	content:"";
-	left:0;
-	bottom:0;
-	height:2px;
-	width:50px;
-	background:#1A76D1;
-}
-.contact-us .contact-us-form p {
-	font-size: 14px;
-	color: #333;
-	font-weight: 400;
-	text-align: left;
-	margin-bottom:50px;
-}
-.contact-us .form {
-	margin-top: 30px;
-}
-.contact-us .form .form-group {
-	margin-bottom: 22px;
-}
-.contact-us .form .form-group input {
-	width: 100%;
-	height: 50px;
-	border: 1px solid #eee;
-	text-transform: capitalize;
-	padding: 0px 18px;
-	color: #555;
-	font-size: 14px;
-	font-weight: 400;
-	border-radius: 4px;
-}
-.contact-us .form .form-group textarea {
-	width: 100%;
-	height:100px;
-	border: 1px solid #eee;
-	text-transform: capitalize;
-	padding:18px;
-	color: #555;
-	font-size: 14px;
-	font-weight: 400;
-	border-radius: 4px;
-}
-.contact-us .form .form-group.login-btn {
-	margin: 0;
-}
-.contact-us .form button {
-	border: none;
-}
-.contact-us .form .btn {
-	display: inline-block;
-	margin-right: 10px;
-	color: #fff;
-	line-height: 20px;
-	width:100%;
-}
-.contact-us .form .btn:hover{
-	background:#1A76D1;
-	color:#fff;
-}
-.contact-us .contact-us-form .checkbox {
-	text-align: left;
-	margin: 0;
-	margin-top: 20px;
-	display:inline-block;
-	
-}
-.contact-us .contact-us-form .checkbox label {
-	font-size: 14px;
-	font-weight: 400;
-	color: #333;
-	position: relative;
-	padding-left: 20px;
-}
-.contact-us .contact-us-form .checkbox label:hover{
-	cursor:pointer;
-}
-.contact-us .contact-us-form .checkbox label input{
-	display:none;
-}
-.contact-us .contact-us-form .checkbox label::before {
-	position: absolute;
-	content: "";
-	left: 0;
-	top: 5px;
-	width: 15px;
-	height: 15px;
-	border: 1px solid #1A76D1;
-	border-radius: 100%;
-}
-.contact-us .contact-us-form .checkbox label::after {
-	position: relative;
-	content: "";
-	width: 7px;
-	height: 7px;
-	left: -16px;
-	top: -15px;
-	opacity: 0;
-	visibility: hidden;
-	transform: scale(0);
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	display: block;
-	font-size: 9px;
-	background: #1A76D1;
-	border-radius: 100%;
-}
-.contact-us .contact-us-form .checkbox label.checked::after{
-	opacity:1;
-	visibility:visible;
-	transform:scale(1);
-}
-.contact-us .contact-info{
-	margin-top:50px;
-}
+/*========================
+	Inicio Contacto CSS
+==========================*/ 
+
 .contact-us .single-info {
-	background: #1a76d1;
-	padding: 40px 60px;
-	height: 150px;
-	border-radius: 10px;
-	position:relative;
-	-webkit-transition: all .3s ease-out 0s;
-    -moz-transition: all .3s ease-out 0s;
-    -ms-transition: all .3s ease-out 0s;
-    -o-transition: all .3s ease-out 0s;
+    background: #1a76d1;
+    padding: 40px 60px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
     transition: all .3s ease-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.contact-us .single-info:before{
-	position: absolute;
+
+.contact-us .single-info:before {
+    position: absolute;
     z-index: -1;
     content: '';
     bottom: -10px;
@@ -1338,48 +1004,41 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background: #1a76d1;
     opacity: 0;
     filter: blur(10px);
-    -webkit-transition: all .3s ease-out 0s;
-    -moz-transition: all .3s ease-out 0s;
-    -ms-transition: all .3s ease-out 0s;
-    -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
 }
-.contact-us .single-info:hover:before{
-	opacity: 0.8;
+
+.contact-us .single-info:hover:before {
+    opacity: 0.8;
 }
-.contact-us .single-info:hover{
-	transform: translateY(-5px);
+
+.contact-us .single-info:hover {
+    transform: translateY(-5px);
 }
-.contact-us .single-info i{
-	font-size:42px;
-	color:#fff;
-	position:absolute;
-	left:40px;
+
+.contact-us .single-info i {
+    font-size: 42px;
+    color: #fff;
+    position: absolute;
+    left: 40px;
 }
+
 .contact-us .single-info .content {
-	margin-left: 45px;
+    text-align: center; /* Añadido para centrar el contenido */
 }
-.contact-us .single-info .content h3{
-	color:#fff;
-	font-size:18px;
-	font-weight:600;
-	
+
+.contact-us .single-info .content h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
 }
-.contact-us .single-info .content p{
-	color:#fff;
-	margin-top:5px;
-}
-/* Google Map */
-.contact-us #myMap {
-	height: 100%;
-	width: 100%;
-}
-/*=========================
-   End Contact Us CSS
-===========================*/
+
+
+/*========================
+	Contacto CSS
+==========================*/ 
 
 /*========================
 	Inicio Galeria de clientes CSS
@@ -1443,7 +1102,7 @@ body{
 }
 .footer .copyright {
     background: #1A76D1;
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 .footer .copyright .copyright-content p {
