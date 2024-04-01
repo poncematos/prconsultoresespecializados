@@ -144,7 +144,7 @@
 	width:15px;
 	line-height:15px;
 	text-align:center;
-	background:#1a76d1;
+	background:#0c3a68;
 	color:#fff;
 	font-size:14px;
 	border-radius:100%;
@@ -172,11 +172,12 @@
 
 .slider .single-slider .text{
 	margin-top:20px; /* Margen superior */
+	width: 100%; /* Ajusta el ancho del contenedor del texto */
 }
 .slider .single-slider h1 {
 	color: #ffffff;
 	font-size: 38px;
-	font-weight: 700;
+	font-weight: 300px;
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
@@ -185,11 +186,12 @@
 .slider .single-slider li {
     position: relative; /* Asegura que el elemento padre sea relativo */
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px; /* Define el tamaño del texto */
+    font-weight: 300; /* Define el tamaño de la caja de texto */
     margin: 0;
-    padding: 0;
+    padding: 0px;
     line-height: 30px;
+	word-wrap: break-word; /* Permite que las palabras se rompan si son demasiado largas */
 }
 
 .slider .single-slider h1 span{
