@@ -142,7 +142,7 @@
 .slider .single-slider .list li i{
 	height:15px;
 	width:15px;
-	line-height:15px;
+	line-height:5px;
 	text-align:center;
 	background:#0c3a68;
 	color:#fff;
@@ -172,7 +172,7 @@
 
 .slider .single-slider .text{
 	margin-top:20px; /* Margen superior */
-	width: 800%; /* Ajusta el ancho del contenedor del texto */
+	width: 200%; /* Ajusta el ancho del contenedor del texto */
 }
 .slider .single-slider h1 {
 	color: #ffffff;
