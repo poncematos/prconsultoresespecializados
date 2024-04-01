@@ -172,7 +172,7 @@
 
 .slider .single-slider .text{
 	margin-top:20px; /* Margen superior */
-	width: 100%; /* Ajusta el ancho del contenedor del texto */
+	width: 800%; /* Ajusta el ancho del contenedor del texto */
 }
 .slider .single-slider h1 {
 	color: #ffffff;
@@ -181,6 +181,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
+
 }
 
 .slider .single-slider li {

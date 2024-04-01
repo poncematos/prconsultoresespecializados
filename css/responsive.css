@@ -245,13 +245,7 @@ Version:	1.1
 .news-single .single-main {
 	margin-top: 0;
 }
-.newsletter .subscribe-text {
-	text-align: center;
-	margin-bottom: 25px;
-}
-.newsletter .subscribe-form {
-	text-align: center;
-}
+
 .contact-us #myMap {
 	height: 400px;
 }
@@ -533,8 +527,44 @@ Version:	1.1
 }
 
 .slider .single-slider {
-	height: 820px;  /* Altura del texto del slider */
+	height: 800px;  /* Altura del texto del slider */
+	max-width: 800px;
+	width: 100%; /* Esto asegura que ocupe todo el ancho del contenedor */
+	text-align: justify;
+	
 }
+
+
+
+.slider .single-slider .text{
+	margin-top:20px; /* Margen superior */
+	width: 100%; /* Ajusta el ancho del contenedor del texto */
+}
+.slider .single-slider h1 {
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 300px;
+	margin: 0;
+	padding: 0;
+	line-height: 42px;
+	text-align: justify;
+}
+
+.slider .single-slider li {
+    position: relative; /* Asegura que el elemento padre sea relativo */
+    color: #ffffff;
+    font-size: 18px; /* Define el tamaño del texto */
+    font-weight: 300; /* Define el tamaño de la caja de texto */
+    margin: 0;
+    padding: 0px;
+    line-height: 30px;
+	text-align: justify;
+}
+
+
+
+
+
 
 .schedule {
 	background: #fff;

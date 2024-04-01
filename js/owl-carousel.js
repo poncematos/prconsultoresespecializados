@@ -730,7 +730,7 @@ function(a, b, c) {
     };
     d.Defaults = {
         autoplay: !1,
-        autoplayTimeout: 5e3,
+        autoplayTimeout: 70000, /* Tiempo de traslado del carrusel */
         autoplayHoverPause: !1,
         autoplaySpeed: !1
     }, d.prototype.autoplay = function() {
