@@ -527,7 +527,7 @@ Version:	1.1
 }
 
 .slider .single-slider {
-	height: 800px;  /* Altura del texto del slider */
+	height: 900px;  /* Altura del texto del slider */
 	max-width: 800px;
 	width: 100%; /* Esto asegura que ocupe todo el ancho del contenedor */
 	text-align: justify;
