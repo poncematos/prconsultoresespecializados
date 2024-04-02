@@ -1,0 +1,777 @@
+/*===================
+	Start Header CSS 
+=====================*/
+.header{
+	background-color:#fff;
+	position:relative;
+}
+.header .navbar-collapse{
+	padding:0;
+}
+/* Topbar */
+.header .topbar{
+	background-color:#fff;
+	border-bottom:1px solid #eee;
+}
+.header .topbar{
+	padding:15px 0;
+}
+.header .top-link{
+	float:left;
+}
+.header .top-link li{
+	display:inline-block;
+	margin-right:15px;
+}
+.header .top-link li:last-child{
+	margin-right:0px;
+}
+.header .top-link li a{
+	color:#2C2D3F;
+	font-size:14px;
+	font-weight:400;
+}
+.header .top-link li:hover a{
+	color:#1A76D1;
+}
+.header .top-contact{
+	float:right;
+}
+.header .top-contact li{
+	display:inline-block;
+	margin-right:25px;
+	color:#2C2D3F;
+}
+.header .top-contact li:last-child{
+	margin-right:0;
+}
+.header .top-contact li a{
+	font-size:14px;
+}
+.header .top-contact li a:hover{
+	color:#1A76D1;
+}
+.header .top-contact li i{
+	color:#1A76D1;
+	margin-right:8px;
+}
+.header .header-inner {
+	background:#fff;
+	z-index:999;
+	width:100%;
+}
+.get-quote{
+	margin-top:12px;
+}
+.get-quote .btn{
+	color:#fff;
+}
+.header .logo {
+	float: left;
+	margin-top: 18px;
+}
+.header .navbar {
+	background: none;
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	height: 0px;
+	min-height: 0px;
+}
+.header .nav li{
+	margin-right: 15px;
+    float: left;
+	position:relative;
+}
+.header .nav li:last-child{
+	margin:0;
+}
+.header .nav li a {
+	color: #2C2D3F;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	padding: 25px 12px;
+	position: relative;
+	display: inline-block;
+	position:relative;
+}
+.header .nav li a::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width:0%;
+	background: #1A76D1;
+	border-radius: 5px 5px 0 0;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.header .nav li.active a:before{
+	opacity:1;
+	visibility:visible;
+	width: 100%;
+}
+.header .nav li.active a{
+	color:#1A76D1;
+}
+.header .nav li:hover a:before{
+	opacity:1;
+	width: 100%;
+	visibility:visible;
+}
+.header .nav li:hover a{
+	color:#1a76d1;
+}
+.header .nav li a i {
+	display: inline-block;
+	margin-left: 1px;
+	font-size: 13px;
+}
+/*=========================
+	End Header CSS
+===========================*/
+
+/*===========================
+	Start carrousel principal Area CSS
+=============================*/
+.slider .single-slider .list li i{ /* viñeta de enumeración */
+	height:15px;
+	width:15px;
+	line-height:15px;
+	text-align:center;
+	background:#083664;
+	color:#fff;
+	font-size:14px;
+	border-radius:100%;
+	padding-left:2px;
+	margin-right:16px;
+}
+
+.slider .single-slider .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(255, 255, 255, 0); /* Fondo blanco semi transparente. los últmos dígitos son el nivel de transparencia */
+    z-index: 0; /* Asegura que esté detrás del texto */
+}
+
+
+.slider .single-slider {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+.slider .single-slider .text{
+	margin-top:20px; /* Margen superior */
+	width: 150%; /* Ajusta el ancho del contenedor del texto */
+}
+.slider .single-slider h1 {
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 300px;
+	margin: 0;
+	padding: 0;
+	line-height: 42px;
+	text-align: center;
+
+}
+
+.slider .single-slider li {
+    position: relative; /* Asegura que el elemento padre sea relativo */
+    color: #ffffff;
+    font-size: 18px; /* Define el tamaño del texto */
+    font-weight: 300; /* Define el tamaño de la caja de texto */
+    margin: 0;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.slider .single-slider h1 span{
+	color:#0d2e4f;
+}
+
+.slider .single-slider .button{
+	margin-top:30px;
+}
+.slider .single-slider .btn{  /* boton contactanos por whatsapp */
+	color:#fff;
+	background:#0f3e6c;
+	font-weight:500;
+	display:inline-block;
+	margin:10;
+	margin-right:10px;
+}
+.slider .single-slider .btn:last-child{
+	margin:0;
+}
+.slider .single-slider .btn.primary{
+	background:#3f2c3c;
+	color:#fff;
+}
+.slider .single-slider .btn.primary:before{
+	background:#1A76D1;
+}
+.slider .owl-carousel .owl-nav {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+	margin-top:-25px;
+}
+.slider .owl-carousel .owl-nav div {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #1A76D1;
+	color: #fff;
+	font-size: 26px;
+	position: absolute;
+	margin: 0;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	padding: 0;
+	border-radius: 50%;
+}
+.slider .owl-carousel .owl-nav div:hover{
+	background:#3f2c36;
+	color:#fff;
+}
+.slider .owl-carousel .owl-controls .owl-nav .owl-prev{
+	left:20px;
+}
+.slider .owl-carousel .owl-controls .owl-nav .owl-next{
+	right:20px;
+}
+
+/* Slider Animation */
+.owl-item.active .single-slider h1{
+    animation: fadeInUp 1s both 1s;
+}
+.owl-item.active .single-slider .button{
+    animation: fadeInDown 1s both 1s;
+}
+
+.single-slider {
+    position: relative;
+}
+
+.slider {
+    overflow-x: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 50;
+    left: 90;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: -1; /* Asegura que la imagen de fondo esté detrás del contenido */
+}
+
+/*===========================
+	End Hero Area CSS
+=============================*/
+
+/*=============================
+	Inicio cuadraditos de datos CSS
+===============================*/
+.schedule {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	height: 230px;
+}
+.schedule .schedule-inner {
+	position: relative;
+	transform: translateY(-40%);
+	z-index:9;
+}
+.schedule .single-schedule {
+	position: relative;
+	text-align: left;
+	z-index:3;
+	border-radius:5px;
+	background:#0a4a8a;
+	 -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.schedule .single-schedule .inner {
+	overflow:hidden;
+	position: relative;
+	padding:30px;
+	z-index:2;
+}
+.schedule .single-schedule:before{
+	position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background:#0a4a8a;
+    opacity: 0;
+    filter: blur(10px);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.schedule .single-schedule:hover:before{
+	opacity: 0.8;
+}
+.schedule .single-schedule:hover{
+	transform: translateY(-5px);
+}
+.schedule .single-schedule .icon i{
+	position: absolute;
+	font-size: 110px;
+	color: #fff;
+	 -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+	z-index:-1;
+	visibility:visible;
+	opacity:0.2;
+	right: -25px;
+	bottom: -30px;
+}
+.schedule .single-schedule span{
+	display:block;
+	color:#fff;
+}
+.schedule .single-schedule h4{
+	font-size: 20px;
+	font-weight:600;
+	display:inline-block;
+	text-transform:capitalize;
+	color:#fff;
+	margin-top:13px;
+}
+.schedule .single-schedule p{
+	color:#fff;
+	margin-top:22px;
+}
+.schedule .single-schedule a {
+	color: #fff;
+	margin-top: 25px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+}
+.schedule .single-schedule a:before{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	height:1px;
+	width:0%;
+	background:#fff;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.schedule .single-schedule a:hover:before{
+	width:100%;
+	width:100%;
+}
+.schedule .single-schedule a i{
+	margin-left:10px;
+}
+
+.schedule .single-schedule .time-sidual{
+	overflow:hidden;
+	margin-top:17px;
+}
+.schedule .single-schedule .time-sidual li {
+	display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom:3px;
+}
+.schedule .single-schedule .time-sidual li:last-child{
+	margin:0;
+}
+.schedule .single-schedule .time-sidual li span{
+	display:inline-block;
+}
+.schedule .single-schedule .day-head .time {
+	font-weight: 400;
+	float: right;
+}
+/*=============================
+	Fin de cuadraditos de datos CSS
+===============================*/
+
+/*===================
+	Inicio Nosotros CSS
+=====================*/
+.why-choose .choose-left h3{
+	font-size:24px;
+	font-weight:600;
+	color:#2C2D3F;
+	position:relative;
+	padding-bottom:20px;
+	margin-bottom:24px;
+}
+.why-choose .choose-left h3:before{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	height:2px;
+	width:50px;
+	background:#1a76d1;
+}
+.why-choose .choose-left p{
+	margin-bottom:35px;
+}
+
+.why-choose .choose-left .list li {
+	color: #868686;
+	margin-bottom: 12px;
+}
+.why-choose .choose-left .list li:last-child{
+	margin-bottom:0px;
+}
+.why-choose .choose-left .list li i{
+	height:15px;
+	width:15px;
+	line-height:15px;
+	text-align:center;
+	background:#1a76d1;
+	color:#fff;
+	font-size:14px;
+	border-radius:100%;
+	padding-left:2px;
+	margin-right:16px;
+}
+/* Start Faq CSS */
+.why-choose{
+	background:#fff;
+}
+.why-choose .choose-right{
+	height:100%;
+	width:100%;
+	background-image:url('img/nosotros.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.why-choose .choose-right .video {
+	color: #fff;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -35px;
+	margin-top: -35px;
+	font-size: 21px;
+	background: #1a76d1;
+	padding-left: 4px;
+}
+.why-choose .choose-right .video:hover{
+	transform:scale(1.1);
+}
+.why-choose .video-image .waves-block .waves {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0); /* Para compatibilidad con versiones antiguas de IE */
+	border-radius: 100%;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+	left: 50%;
+	margin-left: -100px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.why-choose .video-image .waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.why-choose .video-image .waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.why-choose .video-image .waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+/*=======================
+	Fin Nosotros CSS
+=========================*/
+
+/*===============================
+	Inicio Servicios CSS
+=================================*/
+.call-action .choose-left h3{
+	font-size:24px;
+	font-weight:600;
+	color:#2C2D3F;
+	position:relative;
+	padding-bottom:20px;
+	margin-bottom:24px;
+}
+.call-action .choose-left h3:before{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	height:2px;
+	width:50px;
+	background:#1a76d1;
+}
+.call-action .choose-left p{
+	margin-bottom:35px;
+}
+
+.call-action .choose-left .list li {
+	color: #868686;
+	margin-bottom: 12px;
+}
+.call-action .choose-left .list li:last-child{
+	margin-bottom:0px;
+}
+.call-action .choose-left .list li i{
+	height:15px;
+	width:15px;
+	line-height:15px;
+	text-align:center;
+	background:#1a76d1;
+	color:#fff;
+	font-size:14px;
+	border-radius:100%;
+	padding-left:2px;
+	margin-right:16px;
+}
+/* Start Faq CSS */
+.call-action{
+	background:#fff;
+}
+.call-action .choose-right{
+	height:100%;
+	width:100%;
+	background-image:url('img/servicios.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.call-action .choose-right .video {
+	color: #fff;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -35px;
+	margin-top: -35px;
+	font-size: 21px;
+	background: #1a76d1;
+	padding-left: 4px;
+}
+.call-action .choose-right .video:hover{
+	transform:scale(1.1);
+}
+.call-action .video-image .waves-block .waves {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0); /* Para compatibilidad con versiones antiguas de IE */
+	border-radius: 100%;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+	left: 50%;
+	margin-left: -100px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.call-action .video-image .waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.call-action .video-image .waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.call-action .video-image .waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/*===============================
+	Fin Servicios CSS
+=================================*/
+
+/*========================
+	Inicio Contacto CSS
+==========================*/ 
+
+.contact-us .single-info {
+    background: #1a76d1;
+    padding: 40px 60px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ease-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .single-info:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background: #1a76d1;
+    opacity: 0;
+    filter: blur(10px);
+    transition: all .3s ease-out 0s;
+}
+
+.contact-us .single-info:hover:before {
+    opacity: 0.8;
+}
+
+.contact-us .single-info:hover {
+    transform: translateY(-5px);
+}
+
+.contact-us .single-info i {
+    font-size: 42px;
+    color: #fff;
+    position: absolute;
+    left: 40px;
+}
+
+.contact-us .single-info .content {
+    text-align: center; /* Añadido para centrar el contenido */
+}
+
+.contact-us .single-info .content h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*========================
+	Contacto CSS
+==========================*/ 
+
+/*========================
+	Inicio Galeria de clientes CSS
+==========================*/ 
+.gallery2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+	grid-gap: 50px; /* Espacio entre los elementos */
+  }
+  
+  .single-clients2 {
+	text-align: center; /* Centra los elementos */
+  }
+  
+  .single-clients2 img {
+	max-width: 80%; /* Para asegurar que las imágenes no excedan su contenedor */
+	height: auto; /* Para mantener la relación de aspecto de las imágenes */
+  }
+  
+  
+/*========================
+	Fin Galeria de clientes CSS
+==========================*/ 
+
+/*========================
+    Start Clients CSS
+==========================*/
+.clients {
+    background-image: url('img/client-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.clients .single-clients {
+    display: flex; /* Establecer el contenedor de cada cliente como flexbox */
+    align-items: center; /* Centrar verticalmente dentro del contenedor */
+    height: 150px; /* Establecer una altura fija para cada contenedor */
+    margin-right: 20px; /* Agregar un margen derecho para aumentar el espacio entre cada logo */
+}
+
+.clients .single-clients:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento para evitar un espacio adicional */
+}
+
+.clients .single-clients img {
+    width: 150px; /* Establecer un ancho fijo */
+    height: auto; /* Mantener la relación de aspecto */
+    display: block; /* Asegurar que la imagen se muestre como bloque */
+    margin: auto; /* Centrar horizontalmente */
+}
+/*========================
+    End Clients CSS
+==========================*/
+/*=========================
+	Start Footer CSS
+===========================*/
+.footer {
+    position: relative;
+}
+.footer .copyright {
+    background: #1A76D1;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer .copyright .copyright-content p {
+    color: #fff;
+}
+/*=========================
+	End Footer CSS
+===========================*/
