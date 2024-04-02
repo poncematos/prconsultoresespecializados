@@ -527,7 +527,7 @@ Version:	1.1
 }
 
 .slider .single-slider {
-	height: 900px;  /* Altura del texto del slider */
+	height: auto;  /* Altura del texto del slider */
 	max-width: 800px;
 	width: 100%; /* Esto asegura que ocupe todo el ancho del contenedor */
 	text-align: justify;
@@ -537,7 +537,7 @@ Version:	1.1
 
 
 .slider .single-slider .text{
-	margin-top:20px; /* Margen superior */
+	margin-top:5px; /* Margen superior */
 	width: 100%; /* Ajusta el ancho del contenedor del texto */
 }
 .slider .single-slider h1 {
@@ -567,11 +567,11 @@ Version:	1.1
 
 
 .schedule {
-	background: #fff;
-	margin: 0;
-	padding: 0;
+	background: #ffffff;
+	margin: auto;
+	padding: auto;
 	height: auto;
-	padding: 50px 0;
+	padding: auto;
 	border-bottom:1px solid #eee;
 }
 .schedule .schedule-inner {
@@ -583,16 +583,7 @@ Version:	1.1
 .slider .single-slider{
 	position:relative;
 }
-.slider .single-slider:before{
-	position:absolute;
-	content:"";
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#fff;
-	opacity:0.5;
-}
+
 .slider .single-slider h1 {
 	font-size: 28px;
 	font-weight: 600;
@@ -1289,10 +1280,5 @@ Version:	1.1
 .footer .footer-top {
 	padding: 65px 0px;
 }
-
-
-
-
-
 
 }
