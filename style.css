@@ -608,7 +608,7 @@
     justify-content: center; /* Agrega esta línea */
     align-items: center; /* Agrega esta línea */
     margin: 0 auto; /* Agrega esta línea */
-    max-width: 50%; /* Agrega esta línea */
+    max-width: 100%; /* Agrega esta línea */
 }
 
 .contact-us .single-info:before {
