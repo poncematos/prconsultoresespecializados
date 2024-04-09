@@ -524,7 +524,7 @@
     position: relative; /* Asegura que el elemento padre sea relativo */
     color: #ffffff;
     font-size: 18px; /* Define el tamaño del texto */
-    font-weight: 300; /* Define el tamaño de la caja de texto */
+    font-weight: 750; /* Define el tamaño de la caja de texto */
     margin: 0;
     padding: 0px;
     line-height: 30px;
@@ -727,6 +727,18 @@
 	position:relative;
 	height: 800px;  /* Altura del texto del slider */
 }
+
+.slider .single-slider li {
+    position: relative; /* Asegura que el elemento padre sea relativo */
+    color: #ffffff;
+    font-size: 18px; /* Define el tamaño del texto */
+    font-weight: 750; /* Define el tamaño de la caja de texto */
+    margin: 0;
+    padding: 0px;
+    line-height: 30px;
+	text-align: justify;
+}
+	
 .slider .single-slider:before{
 	position:absolute;
 	content:"";
