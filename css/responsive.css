@@ -499,7 +499,7 @@
 }
 
 .slider .single-slider {
-	height: 800px;  /* Altura de la caja de texto del slider */
+	height: 1000px;  /* Altura de la caja de texto del slider */
 	max-width: 800px;
 	width: 100%; /* Esto asegura que ocupe todo el ancho del contenedor */
 	text-align: justify;
@@ -707,7 +707,7 @@
 	text-align: center;
 }
 .slider .single-slider {
-	height: 380px;
+	height: 1000px;
 }
 .schedule {
 	background: #fff;
